@@ -4,6 +4,7 @@
   "description": "A central application for all Smoke Cartel kiosks",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hannahpatellis/smokecartelkiosks/issues"
   },
-  "homepage": "https://github.com/hannahpatellis/smokecartelkiosks#readme"
+  "homepage": "https://github.com/hannahpatellis/smokecartelkiosks#readme",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  }
 }
