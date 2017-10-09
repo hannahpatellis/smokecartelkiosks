@@ -14,6 +14,18 @@
         <![endif]-->
     </head>
     <body>
+        <div class="wrapper">
+            <div class="stage">
+                stage!
+            </div>
+            <div class="sidebar">
+                sidebar!
+            </div>
+            <div class="footer">
+                footer!
+            </div>
+        </div>
+
         <div class="container">
             <div class="row">
               <h1>Hello World!</h1>
@@ -23,10 +35,11 @@
             </div>
         </div>
 
-        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script>window.$ = window.jQuery = require('./assets/js/jquery-3.2.1.min.js');</script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script type="text/javascript">
-          require('./renderer.js');
+          require('./renderer.js')      
+
         </script>
     </body>
 </html>

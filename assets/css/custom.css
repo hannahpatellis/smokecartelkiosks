@@ -1,0 +1,29 @@
+.wrapper{
+
+}
+.sidebar{
+    height:100%;
+    background-color:green;
+    opacity:0.5;
+    width:200px;
+    position:fixed;
+    top:0;
+    left:0;
+}
+.footer{
+    height:200px;
+    background-color:red;
+    opacity:0.5;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+.stage{
+    background-color:black;
+    position:fixed;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+}
